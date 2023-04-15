@@ -1,0 +1,312 @@
+/********** HEADER ***************/
+
+
+.header {
+    width: 36rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:3rem;
+}
+
+.nav-list__item {
+    display: none;
+}
+
+/********** TOP ***************/
+.top-section {
+    display: grid;
+}
+
+.top-pic img {
+    width: 36rem;
+}
+
+.top-words {
+    display: none;
+}
+
+.top-grad {
+    width:36rem;
+    height: 5rem;
+    background-image: linear-gradient(to top right, orange, pink);
+    margin-top: -1rem;
+}
+
+.top-bar__item {
+    width: 36rem;
+    height: 15rem;
+    text-align: center;
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    
+}
+
+.top-bar__item img {
+    width: 8rem;
+}
+
+.learning {
+    background-color: rgb(22, 190, 190);
+}
+
+.philosophy {
+    background-color: rgb(245, 202, 11);
+}
+
+.practice {
+    background-color: rgb(255, 134, 255);
+}
+
+.sports {
+    background-color: rgb(67, 150, 206);
+}
+
+
+/********** SECOND ***************/
+
+.second-container {
+    width: 100%;
+    background-color: rgb(22, 190, 190);
+    margin-top: 5rem;
+}
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+    color: white;   
+    padding: 5rem 3rem 2rem 3rem;
+    width: 36rem;
+    margin: auto;
+    
+}
+
+.second-line hr{
+    width: 16rem;
+    color: white;
+    margin-top: 1.7rem;
+}
+
+/********** THIRD ***************/
+
+.third-section {
+    text-align: center;
+    display: grid;
+    justify-items: center;
+    
+    margin: 3rem;
+}
+
+.third-section h3{
+    color:grey;
+    font-size: 3rem;
+}
+.third-section h2{
+    font-size: 3.5rem;
+    width: 25rem; 
+}
+
+.third-msg__1,
+.third-msg__2 {
+    width: 28rem;
+     margin: 4rem auto 3rem auto;
+      
+}
+
+.third-msg__1 > img {
+    width: 4rem;
+    border-radius: 100%;
+    background-color: rgb(255, 134, 255);
+}
+
+.third-msg__2 > img {
+    width: 4rem;
+    border-radius: 100%;
+    background-color: rgb(22, 190, 190);
+    
+    
+}
+
+.third-section p {
+    color:grey;
+    font-size: 2rem;
+    font-style: italic;
+    margin-bottom: 3rem;
+}
+
+.third-section a {
+    text-decoration: none;
+    color: rgb(255, 134, 255);
+    font-weight: bold;
+}
+
+.img-3,
+.img-4,
+.img-5 {
+    width: 28rem;
+    margin: 0.5rem;
+}
+
+/********** FORTH ***************/
+.forth-section {
+    width: 100%;
+    background-color: rgb(245, 202, 11);
+    text-align: center;
+    display: grid;
+    justify-content: center;
+}
+
+.services-box {
+    width: 28rem;
+    background-color: white;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+.services-box img {
+    width: 4rem;
+}
+
+/********** FIFTH ***************/
+
+.fifth-section__container {
+    width: 36rem;
+    margin: 5rem auto 5rem auto;
+
+}
+
+.fifth-grid {
+    position: relative;
+}
+
+.fifth-img1 {
+    width: 12rem;
+    height: 40rem; 
+    object-fit: cover;
+    object-position: 50% 10%;
+    display: block;
+    margin-left: 2rem;
+    margin-bottom: 5rem;
+    
+}
+
+.fifth-grad {
+    width: 23rem;
+    height: 30rem;
+    background-image: linear-gradient(to top,orange,pink);
+    position: absolute;
+    top: 4rem;
+    left: 8rem;
+ 
+}
+
+.fifth-img2 {
+    width: 15rem;
+    height: 30rem; 
+    object-fit: cover;
+    object-position: 50% 10%;
+    position:absolute;
+    top: 8rem;
+    left: 14.5rem;
+}
+
+
+.fifth-words {
+    width: 28rem;
+    
+}
+
+.fifth-section__container h1 {
+    color:rgb(67, 150, 206);
+    font-size: 2.5rem;
+}
+
+.fifth-section__container p {
+    margin-bottom: 2rem;
+}
+
+.fifth-section__container a {
+    text-decoration: none;
+    color: rgb(255, 134, 255);
+    font-weight: bold;
+    
+}
+
+/********** SIXTH ***************/
+.sixth-section {
+    width: 100%;
+    background-color: rgb(22, 190, 190);
+    
+}
+.sixth-container {
+    display: flex;
+    flex-direction: column;
+    color: white;   
+   padding: 4rem; 
+    
+}
+
+
+
+.sixth-container h2{
+    width: 25rem;
+    text-align: center;
+}
+
+
+/********** SEVENTH ***************/
+
+
+
+/********** EIGHT ***************/
+
+
+
+
+/********** NINTH ***************/
+
+
+
+
+/********** TENTH ***************/
+
+
+
+
+
+/********** ATTRIBUTE ***************/
+
+
+
+
+
+
+/*********** Media query *************/
+@media only screen and (min-width: 40rem) {
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 1rem;
+}
+
+.nav-list__items {
+    list-style: none;
+}
+
+.nav-list__item {
+    display: inline-flex;
+    padding: 0 1rem 0 1rem;
+}
+
+
+.top-words {
+    display: flex;
+}
+
+}
