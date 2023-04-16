@@ -1,3 +1,6 @@
+
+
+
 /********** HEADER ***************/
 
 
@@ -6,7 +9,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height:3rem;
+    height:5rem;
+}
+
+.header .logo a {
+    font-size: 2rem;
 }
 
 .nav-list__item {
@@ -98,14 +105,14 @@
     margin: 3rem;
 }
 
-.third-section h3{
-    color:grey;
-    font-size: 3rem;
-}
 .third-section h2{
-    font-size: 3.5rem;
-    width: 25rem; 
+    color:grey;
+    
 }
+/* .third-section h1{
+    
+    width: 25rem; 
+} */
 
 .third-msg__1,
 .third-msg__2 {
@@ -130,7 +137,7 @@
 
 .third-section p {
     color:grey;
-    font-size: 2rem;
+    
     font-style: italic;
     margin-bottom: 3rem;
 }
@@ -219,7 +226,7 @@
 
 .fifth-section__container h1 {
     color:rgb(67, 150, 206);
-    font-size: 2.5rem;
+    
 }
 
 .fifth-section__container p {
@@ -243,7 +250,9 @@
     display: flex;
     flex-direction: column;
     color: white;   
-   padding: 4rem; 
+    padding: 4rem; 
+    width: 36rem;
+    margin: auto;
     
 }
 
@@ -251,31 +260,125 @@
 
 .sixth-container h2{
     width: 25rem;
-    text-align: center;
+    text-align: left;
+    padding-bottom: 2rem;
 }
 
 
 /********** SEVENTH ***************/
+.seventh-section {
+    margin-top: 4rem;
+}
 
+
+.seventh-flex__container {
+    display: grid;
+    justify-items: center;
+    width: 36rem;
+    
+
+}
+
+
+.seventh-top {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.seventh-section h3,
+.seventh-section p  {
+    color:grey;
+}
+
+.seventh-top__3 {
+    text-align: right;
+    margin-bottom: 3rem;
+    line-height: 2;
+}
+
+.seventh-bot__3 {
+    text-align: left;
+    margin-top: 3rem;
+    line-height: 2;
+}
 
 
 /********** EIGHT ***************/
+.eight-flex__container {
+    display: grid;
+    justify-items: center;
+    text-align: center;
+}
+
+.eight-flex__container img {
+    width: 4rem;
+    border-radius: 100%;
+    margin-bottom: 2rem;
+    
+}
+
+.location,
+.mobile-number,
+.email {
+    width: 36rem;
+    margin: 7rem;
+}
+
+.location .location-img {
+    background-color: rgb(255, 134, 255);
+}
+
+.mobile-number .mobile-img {
+    background-color: rgb(245, 202, 11);
+}
+
+.email .email-img {
+    background-color: rgb(22, 190, 190);
+}
 
 
 
-
-/********** NINTH ***************/
-
-
-
-
-/********** TENTH ***************/
+.eight-flex__container p {
+    font-weight: bold;
+}
 
 
 
+/********** footer ***************/
 
+.footer {
+    width: 100%;
+    background-color: rgb(255, 134, 255);
+    
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 36rem;
+    justify-self: center;
+    margin: auto;
+
+}
+
+.footer img {
+    width: 1.5rem;
+    padding: 3rem;
+}
 
 /********** ATTRIBUTE ***************/
+
+.attribute {
+    width: 100%;
+    background-color: black;
+    height: 3rem;
+    text-align: center;
+}
+
+.attribute p {
+    color: white;
+}
 
 
 
