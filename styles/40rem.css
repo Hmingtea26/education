@@ -1,0 +1,140 @@
+@media only screen and (min-width: 40rem) {
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 60rem;
+    }
+    
+    .logo {
+        margin-left: 1rem;
+    }
+    
+    .nav-list__items {
+        list-style: none;
+    }
+    
+    .nav-list__item {
+        display: inline-flex;
+        padding: 0 1rem 0 1rem;
+    }
+    
+    .top-section {
+        width: 60rem;
+    }
+    
+    .top-grad {
+        width:36rem;
+        height: 29.8rem;
+        z-index: -1;
+        margin: -30rem 0 0 5rem;
+    }
+    
+    .top-mid__bars {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: -0.28rem;
+    }
+    
+    
+    .top-bar__item {
+        width: 30rem;
+        height: 15rem;
+        text-align: center;
+        display: grid;
+        justify-items: center;
+        align-content: center;
+    }
+    
+    .second-section {
+        width: 55rem;
+        display: grid;
+        grid-template-columns: 30% 5% 1fr;  
+    }
+
+    .second-section h2,
+    .second-section p {
+        margin-bottom: 3rem;
+    }
+
+    .second-head {
+        grid-column: 1 / -1 ;
+    }
+
+    .second-line {
+        grid-row: 2 / 3;
+    }
+    
+    .second-para {
+        grid-column: 3/-1;
+    }
+
+    .third-section {
+        justify-content: center;
+    }
+
+    .third-container {
+        display: grid;
+        width: 60rem;
+        
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 9rem 30rem;
+        grid-template-areas: "top1  top1"
+                             "diamond  people";              
+
+    }
+
+    .third-head {
+        grid-area: top1;
+    }
+
+    .third-msg__1,
+    .third-msg__2 {
+       text-align: left;
+          
+    }
+
+    .img-3,
+    .img-4 {
+        width: 20rem;
+        
+    }
+
+    .img-5 {   
+        width: 41rem;
+        }
+
+    .forth-section {
+        width: 100%;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .forth-words {
+        grid-column: 1 /-1;
+    }
+
+    .services-box {
+        width: 22rem;
+        padding: 2rem;
+        margin: 2rem;
+        
+        
+    }
+
+    .environment {
+        place-content: right;
+    }
+    .active-learning {
+    place-items:left;
+    }
+    .creative-lessons {
+    justify-content:left;
+    }
+    .qualified-teacher {
+        justify-content:left;
+    }
+
+
+
+    }

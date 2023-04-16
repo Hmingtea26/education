@@ -109,10 +109,7 @@
     color:grey;
     
 }
-/* .third-section h1{
-    
-    width: 25rem; 
-} */
+
 
 .third-msg__1,
 .third-msg__2 {
@@ -164,11 +161,47 @@
     justify-content: center;
 }
 
+.forth-words {
+    padding: 3rem;
+    color: white;
+}
+
+.forth-section h3 {
+    padding-top: 2rem;
+}
+
+.environment p,
+.active-learning p,
+.creative-lessons p,
+.qualified-teacher p {
+    font-style: italic;
+    font-weight:200;
+    padding: 2rem;
+}
+
+.environment h3 {
+    color:rgb(255, 134, 255);
+}
+.active-learning h3 {
+    color:rgb(67, 150, 206);
+}
+.creative-lessons h3 {
+    color:rgb(22, 190, 190);
+}
+.qualified-teacher h3 {
+    color: rgb(245, 202, 11);
+}
+
+.sports {
+    background-color: 
+}
+
 .services-box {
     width: 28rem;
     background-color: white;
     padding: 2rem;
     margin: 2rem;
+    
 }
 
 .services-box img {
@@ -386,30 +419,3 @@
 
 
 /*********** Media query *************/
-@media only screen and (min-width: 40rem) {
-
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logo {
-    margin-left: 1rem;
-}
-
-.nav-list__items {
-    list-style: none;
-}
-
-.nav-list__item {
-    display: inline-flex;
-    padding: 0 1rem 0 1rem;
-}
-
-
-.top-words {
-    display: flex;
-}
-
-}
