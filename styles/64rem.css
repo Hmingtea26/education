@@ -1,0 +1,176 @@
+@media only screen and (min-width: 64rem) {
+
+.header {
+    justify-content: space-between;
+    width: 80rem;
+    height:8rem;
+}
+
+.top-section {
+    width: 80rem;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.top-words {
+    display:inherit;
+
+}
+
+.top-grad {
+    width:36rem;
+    height: 35rem;
+    z-index: -1;
+    margin: -30rem 0 0 5rem;
+}
+
+.top-mid__bars {
+    margin-top: -12rem;
+    margin-left: -21rem;
+    flex-wrap: nowrap;
+}
+
+
+.top-bar__item {
+    width: 15rem;
+  
+  
+}
+
+.third-section {
+    width: 60rem;
+    
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "top1  top1 top1"
+                         "diamond  people img5"
+                         "img3 img4 img5";              
+
+}
+
+.third-section .third-head {
+    grid-area: top1;
+    padding-bottom: 3rem;
+}
+
+.third-section .third-msg__1 {
+    grid-area: diamond;
+    text-align: left;
+    width: 20rem;
+    
+}
+.third-section .third-msg__2 {
+    grid-area: people;
+    text-align: left;
+    width: 20rem;
+      
+}
+
+.img-3 {
+    grid-area: img3;
+    width: 20rem;
+    
+}
+
+.img-4 {
+    grid-area: img4;
+    width: 20rem;
+    
+    
+}
+
+.img-5 {   
+    width: 41rem;
+    grid-area: img5;
+    align-self: stretch;
+    
+    
+    }
+
+.forth-section__flex {
+
+        grid-template-columns: repeat(4,1fr);
+        gap: 1rem;
+justify-content: center;
+padding-bottom: 3rem;
+    }
+
+.services-box {
+    width: 15rem;
+    height: 30rem;
+    
+}
+
+.fifth-section__container {
+    grid-template-columns: 60% 1fr;
+}
+
+
+.fifth-words {
+    width: 30rem;
+    /* padding: 3rem 0 0 3rem; */
+}
+
+.fifth-grad {
+    top: 10rem;
+    left: 18rem;
+ 
+}
+
+.fifth-img2 {
+    left: 19.5rem;
+    top: 13rem;            
+}
+
+.sixth-container {
+    margin: auto;
+    
+}
+
+
+.seventh-flex__container {
+    display: grid;
+    width: 60rem;
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "msg1 jump msg2";
+
+}
+
+.seventh-top__3 {
+    grid-area: msg1;
+}
+
+.image-jump {
+    width: 20rem;
+    grid-area: jump;
+}
+
+
+.seventh-bot__3 {
+    grid-area: msg2;
+    margin-top: 0;
+   
+}
+
+.seventh-top__3 h2,
+.seventh-bot__3 h2 {
+    font-size: 2rem;
+}
+
+.seventh-top__3 p,
+.seventh-bot__3 p {
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}

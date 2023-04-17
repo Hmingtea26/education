@@ -23,6 +23,7 @@
 /********** TOP ***************/
 .top-section {
     display: grid;
+    justify-items: center;
 }
 
 .top-pic img {
@@ -38,6 +39,12 @@
     height: 5rem;
     background-image: linear-gradient(to top right, orange, pink);
     margin-top: -1rem;
+}
+
+.top-mid__bars {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .top-bar__item {
@@ -157,8 +164,13 @@
     width: 100%;
     background-color: rgb(245, 202, 11);
     text-align: center;
-    display: grid;
-    justify-content: center;
+    
+}
+
+.forth-section__flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .forth-words {
@@ -192,15 +204,13 @@
     color: rgb(245, 202, 11);
 }
 
-.sports {
-    background-color: 
-}
+
 
 .services-box {
     width: 28rem;
     background-color: white;
     padding: 2rem;
-    margin: 2rem;
+    margin: 1rem;
     
 }
 
@@ -276,16 +286,16 @@
 /********** SIXTH ***************/
 .sixth-section {
     width: 100%;
-    background-color: rgb(22, 190, 190);
+    background-color: rgb(67, 150, 206);
     
 }
 .sixth-container {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    
     color: white;   
     padding: 4rem; 
     width: 36rem;
-    margin: auto;
+    
     
 }
 
@@ -338,9 +348,11 @@
 
 /********** EIGHT ***************/
 .eight-flex__container {
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     justify-items: center;
     text-align: center;
+    width: 36rem;
 }
 
 .eight-flex__container img {
@@ -350,11 +362,17 @@
     
 }
 
+.eight-flex__container p {
+    font-size: 1.2rem;
+    
+}
+
 .location,
 .mobile-number,
 .email {
     width: 36rem;
     margin: 7rem;
+    padding-top: 5rem;
 }
 
 .location .location-img {

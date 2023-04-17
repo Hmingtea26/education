@@ -1,9 +1,7 @@
 @media only screen and (min-width: 40rem) {
 
     .header {
-        display: flex;
         justify-content: space-between;
-        align-items: center;
         width: 60rem;
     }
     
@@ -22,6 +20,8 @@
     
     .top-section {
         width: 60rem;
+        justify-items: left;
+        
     }
     
     .top-grad {
@@ -32,19 +32,14 @@
     }
     
     .top-mid__bars {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        margin-top: -0.28rem;
+        margin-top: -12rem;
     }
     
     
     .top-bar__item {
         width: 30rem;
         height: 15rem;
-        text-align: center;
-        display: grid;
-        justify-items: center;
-        align-content: center;
+      
     }
     
     .second-section {
@@ -74,41 +69,61 @@
         justify-content: center;
     }
 
-    .third-container {
-        display: grid;
+    .third-section {
         width: 60rem;
         
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 9rem 30rem;
         grid-template-areas: "top1  top1"
-                             "diamond  people";              
+                             "diamond  people"
+                             "img3 img4"
+                             "img5 img5";              
 
     }
 
-    .third-head {
+    .third-section .third-head {
         grid-area: top1;
     }
 
-    .third-msg__1,
-    .third-msg__2 {
-       text-align: left;
+    .third-section .third-msg__1 {
+        grid-area: diamond;
+        text-align: left;
+    }
+    .third-section .third-msg__2 {
+        grid-area: people;
+        text-align: left;
           
     }
 
-    .img-3,
-    .img-4 {
+    .img-3 {
+        grid-area: img3;
         width: 20rem;
+        justify-self: right;
+    }
+    
+    .img-4 {
+        grid-area: img4;
+        width: 20rem;
+        justify-self: left;
         
     }
 
     .img-5 {   
         width: 41rem;
+        grid-area: img5;
+        
         }
-
-    .forth-section {
-        width: 100%;
-        grid-template-columns: 1fr 1fr;
-    }
+    
+    
+    .forth-section__flex {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+            width: 60rem;
+            margin: auto;
+            
+            
+            
+        }
 
     .forth-words {
         grid-column: 1 /-1;
@@ -116,25 +131,118 @@
 
     .services-box {
         width: 22rem;
-        padding: 2rem;
-        margin: 2rem;
-        
+        height: 30rem;
+        margin: 0;
+        margin-bottom: 1rem;
+            
         
     }
 
     .environment {
-        place-content: right;
+        justify-self: right;
     }
     .active-learning {
-    place-items:left;
+        justify-self: left;
     }
     .creative-lessons {
-    justify-content:left;
+        justify-self: right;
     }
     .qualified-teacher {
-        justify-content:left;
+        justify-self: left;
     }
 
+
+    .fifth-section__container {
+        width: 60rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .fifth-words {
+        width: 18rem;
+        padding: 3rem 0 0 3rem;
+    }
+
+    .fifth-img1 {
+        width: 24rem;
+        margin-left: 3.3rem;
+        margin-bottom: 5rem;
+        
+    }
+
+    .fifth-grad {
+        width: 18rem;
+        height: 25rem;
+        top: 20rem;
+        left: 11.5rem;
+     
+    }
+    
+    .fifth-img2 {
+        height: 25rem; 
+        left: 13rem;
+        top: 23.5rem;            
+    }
+
+    .sixth-container {
+        width: 55rem;
+        grid-template-columns: 1fr 1fr;
+        gap:4rem;
+        
+    }
+
+    .sixth-container h2{
+        width: 60rem;
+    }
+
+    .sixth-head {
+        grid-column: 1 / 3;
+           
+    }
+
+    .seventh-flex__container {
+        display: grid;
+        width: 60rem;
+        grid-template-columns: 1fr 1fr;
+ 
+    }
+
+    .image-jump {
+        width: 25rem;
+    }
+
+
+    .seventh-bot__3 {
+        grid-row: 2 / 3;
+        grid-column: 1 / 3 ;
+       justify-self: left;
+    }
+
+    .eight-flex__container {
+              width: 60rem;
+       flex-wrap: nowrap;
+    }
+    
+    .eight-flex__container img {
+        width: 2rem;
+        border-radius: 100%;
+        margin-bottom: 2rem;
+        
+    }
+    
+    .location,
+    .mobile-number,
+    .email {
+        
+        margin: 3rem;
+    }
+
+    .attribute {
+        display: flex;
+        height: 6rem;
+        justify-content: center;
+        align-items: center;
+    }
 
 
     }
